@@ -1,0 +1,45 @@
+body {
+  font-family: 'Source Sans Pro', 'Arial', 'Helvetica', sans-serif;
+  color: #333;
+  line-height: 1.6em;
+  padding: 0 10px;
+  margin: 0 auto;
+  font-size: 20px;
+  background: white;
+  max-width: 900px;
+  font-weight: 300;
+}
+
+header {
+	border-bottom: 3px solid #CCC;
+}
+
+h1 {
+	font-size: 20px;
+	font-weight: normal;
+}
+
+footer {
+	border-top: 3px solid #CCC;
+}
+
+a {
+	text-decoration: none;
+	color: #949494;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+
+section {
+	margin: 8em 0;
+	text-align: center;
+}
+
+#technique {
+	font-size: 50px;
+	font-weight: 900;
+	line-height: 1em;
+}
