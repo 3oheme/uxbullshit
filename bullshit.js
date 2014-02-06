@@ -72,7 +72,7 @@ function ux_bullshit() {
 }
 
 var item = document.getElementById("technique");
-setInterval(function(){
+setTimeout(function(){
 	item.textContent = '“' + ux_bullshit() + '”';
 },2000);
 
