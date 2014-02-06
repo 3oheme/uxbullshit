@@ -63,9 +63,9 @@ function company() {
 
 function ux_bullshit() {
 	var result = [
-		// "You should try a " + adjective() +" " + ux_technique() + " with a " + role(),
-		// "Go and fire a " + role(),
-		// ux_technique() + " is the new " + ux_technique(),
+		"You should try a " + adjective() +" " + ux_technique() + " with a " + role(),
+		"Go and fire a " + role(),
+		ux_technique() + " is the new " + ux_technique(),
 		company() + " is killing " + ux_technique(),
  	];
 	return result[Math.floor(Math.random()*result.length)];
