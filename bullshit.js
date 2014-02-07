@@ -37,6 +37,7 @@ function ux_technique() {
 		"ethnography research",
 		"cultural probe",
 		"participant observation",
+		"eyetracking"
 	]);
 }
 
@@ -54,7 +55,9 @@ function adjective() {
 		"contextually aware",
 		"ninja grade",
 		"omni-channel",
-    "holistic",
+    	"holistic",
+    	"pragmatic",
+    	"hedonistic"
 	]);
 }
 
@@ -65,7 +68,33 @@ function company() {
 		"Apple",
 		"Amazon",
 		"Twitter",
-		"ThoughtWorks"
+		"ThoughtWorks",
+		"Facebook",
+		"Adobe",
+		"Reddit",
+		"Yahoo",
+		"Oracle",
+	]);
+}
+
+function ux_people() {
+	return random([
+		"Jakob Nielsen",
+		"Don Norman",
+		"Alan Cooper",
+		"Bill Buxton"
+	]);
+}
+
+// you should use user testing to ...
+function outcome() {
+	return random([
+		"increase conversion rates",
+		"identify pain points",
+		"decrease pain expectations",
+		"benchmark resources",
+		"empower taxonomy transformation",
+		"enhance user experience",
 	]);
 }
 
@@ -75,6 +104,8 @@ function ux_bullshit() {
 		"Go and fire a " + role(),
 		ux_technique() + " is the new " + ux_technique(),
 		company() + " is killing " + ux_technique(),
+		"You should use " + adjective() +" " + ux_technique() + " to " + outcome(),
+		"Don't trust " + ux_people() + " and use a " + adjective() +" " + ux_technique()
  	];
 	return result[Math.floor(Math.random()*result.length)];
 }
