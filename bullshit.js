@@ -54,6 +54,7 @@ function adjective() {
 		"contextually aware",
 		"ninja grade",
 		"omni-channel",
+    "holistic",
 	]);
 }
 

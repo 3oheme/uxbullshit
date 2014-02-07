@@ -32,7 +32,6 @@ a:hover {
 	text-decoration: underline;
 }
 
-
 section {
 	margin: 8em 0;
 	text-align: center;
@@ -43,3 +42,14 @@ section {
 	font-weight: 900;
 	line-height: 1em;
 }
+
+@media screen and (max-width: 500px) {
+  section {
+    margin: 4em 0;
+  }
+  #technique {
+    font-size: 30px;
+  }
+}
+
+
