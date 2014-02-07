@@ -1,22 +1,25 @@
-﻿function role() {
-	var role = [
+﻿function random(elements) {
+	return elements[Math.floor(Math.random()*elements.length)]; 
+}
+
+function role() {
+	return random([
 		"developer",
 		"visual designer",
 		"tech lead",
 		"stakeholder",
 		"business analyst",
 		"project manager"
-	];
-	return role[Math.floor(Math.random()*role.length)];
+	]);
 }
 
 function ux_technique() {
-	var techn = [
+	return random([
 		"competitor analysis",
-		"user surveys",
-		"interviews",
+		"user survey",
+		"interview",
 		"contextual enquiry",
-		"focus groups",
+		"focus group",
 		"brainstorming",
 		"ideation session",
 		"affinity diagramming",
@@ -29,36 +32,40 @@ function ux_technique() {
 		"critical incidence technique",
 		"remote evaluation",
 		"personas",
-		"user journeys",
+		"user journey",
 		"longitudinal study",
 		"ethnography research",
 		"cultural probe",
-		"Participant Observation",
-	];
-	return techn[Math.floor(Math.random()*techn.length)];
+		"participant observation",
+	]);
 }
 
 function adjective() {
-	var adj = [
+	return random([
 		"in-house",
 		"empowering",
 		"end-to-end",
-		"future",
-		"low hanging fruit",
-	];
-	return adj[Math.floor(Math.random()*adj.length)];
+		"disruptive",
+		"innovative",
+		"strategic",
+		"guerilla",
+		"hyper-personalized",
+		"enterprise",
+		"contextually aware",
+		"ninja grade",
+		"omni-channel",
+	]);
 }
 
 function company() {
-	var company = [
+	return random([
 		"Google",
 		"Microsoft",
 		"Apple",
 		"Amazon",
 		"Twitter",
 		"ThoughtWorks"
-	];
-	return company[Math.floor(Math.random()*company.length)]; 
+	]);
 }
 
 function ux_bullshit() {
@@ -74,5 +81,5 @@ function ux_bullshit() {
 var item = document.getElementById("technique");
 setTimeout(function(){
 	item.textContent = '“' + ux_bullshit() + '”';
-},2000);
+}, 2000);
 
