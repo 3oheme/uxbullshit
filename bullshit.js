@@ -32,6 +32,7 @@ function ux_technique() {
 		"critical incidence technique",
 		"remote evaluation",
 		"personas",
+    "gamification",
 		"user journey",
 		"longitudinal study",
 		"ethnography research",
@@ -55,9 +56,12 @@ function adjective() {
 		"contextually aware",
 		"ninja grade",
 		"omni-channel",
-    	"holistic",
-    	"pragmatic",
-    	"hedonistic"
+    "holistic",
+    "pragmatic",
+    "hedonistic",
+    "lean",
+    "dinamically generated",
+    "static-positioned",
 	]);
 }
 
@@ -74,6 +78,10 @@ function company() {
 		"Reddit",
 		"Yahoo",
 		"Oracle",
+    "37 degrees",
+    "Mailchimp",
+    "Netflix",
+    "Dropbox",
 	]);
 }
 
@@ -82,7 +90,8 @@ function ux_people() {
 		"Jakob Nielsen",
 		"Don Norman",
 		"Alan Cooper",
-		"Bill Buxton"
+		"Bill Buxton",
+    "John Ive",
 	]);
 }
 
@@ -92,20 +101,31 @@ function outcome() {
 		"increase conversion rates",
 		"identify pain points",
 		"decrease pain expectations",
-		"benchmark resources",
+		"benchmark transversal resources",
 		"empower taxonomy transformation",
+    "increase ROI",
+    "change the game plan",
+    "go viral in social media channels",
 		"enhance user experience",
+    "reduce system leverage",
+    "pivot around future markets",
+    "position HCI strategies",
+    "foster new paradigms in research",
+    "avoid assumption reversal",
+    "increase deliverables quality",
+    "create long-lasting experiences",
 	]);
 }
 
 function ux_bullshit() {
 	var result = [
-		"You should try a " + adjective() +" " + ux_technique() + " with a " + role(),
+		"You should try a " + adjective() +" " + ux_technique() + " with a " + role() + " to " + outcome(),
 		"Go and fire a " + role(),
-		ux_technique() + " is the new " + ux_technique(),
+		"Think in " + ux_technique() + " as the new " + ux_technique(),
 		company() + " is killing " + ux_technique(),
 		"You should use " + adjective() +" " + ux_technique() + " to " + outcome(),
-		"Don't trust " + ux_people() + " and use a " + adjective() +" " + ux_technique()
+		"Don't trust " + ux_people() + " and use a " + adjective() +" " + ux_technique() + " if you need to to " + outcome(),
+    "To " + outcome() + " try thinking in a " + adjective() +" " + ux_technique(),
  	];
 	return result[Math.floor(Math.random()*result.length)];
 }
