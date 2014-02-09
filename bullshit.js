@@ -124,7 +124,7 @@ function ux_bullshit() {
 		"Think in " + ux_technique() + " as the new " + ux_technique(),
 		company() + " is killing " + ux_technique(),
 		"You should use " + adjective() +" " + ux_technique() + " to " + outcome(),
-		"Don't trust " + ux_people() + " and use a " + adjective() +" " + ux_technique() + " if you need to to " + outcome(),
+		"Don't trust " + ux_people() + " and use a " + adjective() +" " + ux_technique() + " if you need to " + outcome(),
     "To " + outcome() + " try thinking in a " + adjective() +" " + ux_technique(),
  	];
 	return result[Math.floor(Math.random()*result.length)];
