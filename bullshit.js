@@ -38,7 +38,8 @@ function ux_technique() {
 		"ethnography research",
 		"cultural probe",
 		"participant observation",
-		"eyetracking"
+		"eyetracking",
+		"Keystroke level modelling"
 	]);
 }
 
@@ -62,6 +63,9 @@ function adjective() {
 	    "lean",
 	    "dinamically generated",
 	    "static-positioned",
+	    "situational aware",
+	    "self-descriptive",
+	    "tangential"
 	]);
 }
 
@@ -78,10 +82,10 @@ function company() {
 		"Reddit",
 		"Yahoo",
 		"Oracle",
-    "37 degrees",
-    "Mailchimp",
-    "Netflix",
-    "Dropbox",
+	    "37 degrees",
+	    "Mailchimp",
+	    "Netflix",
+	    "Dropbox",
 	]);
 }
 
@@ -126,7 +130,8 @@ function outcome() {
 		"encourage jazz-like improvisation within a guiding structure",
 		"create a mindset of creative dissatisfaction to reduce resistance to change",
 		"develop a vision-focused innovation strategy",
-		"unpack competitive self-confidence innovation"
+		"unpack competitive self-confidence innovation",
+		"lower combinatorial impairment"
 	]);
 }
 
@@ -141,7 +146,7 @@ function ux_bullshit() {
 		"Follow " + ux_people() + " and " + outcome() + " using a " + adjective() +" " + adjective() + " " + ux_technique(),
 	    "To " + outcome() + " try thinking in a " + adjective() +" " + ux_technique(),
 	    "A wise man would use a " + adjective() + " " + adjective() + " " + ux_technique() + " to " + outcome(),
-	    "Think outside the box to " + outcome() + " and " + outcome(),
+	    "Think outside the box to " + outcome() + " and " + outcome()
  	];
 	return result[Math.floor(Math.random()*result.length)];
 }
