@@ -39,7 +39,7 @@ function ux_technique() {
 		"cultural probe",
 		"participant observation",
 		"eyetracking",
-		"Keystroke level modelling"
+		"keystroke level modelling"
 	]);
 }
 
