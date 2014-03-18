@@ -17,13 +17,14 @@ function ux_technique() {
 		"critical incidence technique",
 		"remote evaluation",
 		"personas",
-    	"gamification",
+    "gamification",
 		"user journey",
 		"longitudinal study",
 		"ethnography research",
 		"cultural probe",
 		"participant observation",
 		"eyetracking",
-		"keystroke level modelling"
+		"keystroke level modelling",
+    "hypotesys deconstruction"
 	]);
 }
