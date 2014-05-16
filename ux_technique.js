@@ -25,6 +25,16 @@ function ux_technique() {
 		"participant observation",
 		"eyetracking",
 		"keystroke level modelling",
-    "hypotesys deconstruction"
+    "hypotesys deconstruction",
+    "charrette",
+    "sketch-to-code",
+    "research wall",
+    "concept model",
+    "service blueprint",
+    "mental model",
+    "evangelicalism session",
+    "healthcheck",
+    "product in a box",
+    "process mapping"
 	]);
 }

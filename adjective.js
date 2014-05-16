@@ -20,6 +20,9 @@ function adjective() {
 	    "static-positioned",
 	    "situational aware",
 	    "self-descriptive",
-	    "tangential"
+	    "tangential",
+	    "greenfield",
+	    "passive",
+	    "active"
 	]);
 }

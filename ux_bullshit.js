@@ -9,7 +9,9 @@ function ux_bullshit() {
 		"Follow " + ux_people() + " and " + outcome() + " using a " + adjective() +" " + adjective() + " " + ux_technique(),
 	    "To " + outcome() + " try thinking in a " + adjective() +" " + ux_technique(),
 	    "A wise man would use a " + adjective() + " " + adjective() + " " + ux_technique() + " to " + outcome(),
-	    "Think outside the box to " + outcome() + " and " + outcome()
+	    "Think outside the box to " + outcome() + " and " + outcome(),
+	    "You can simply " + outcome() + " apllying a " + adjective() +" " + ux_technique(),
+	    "Stop using a " + adjective() +' '+ adjective() +" " + ux_technique() + " if you need to " + outcome(),
  	];
 	return result[Math.floor(Math.random()*result.length)];
 }
