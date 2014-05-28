@@ -16,7 +16,7 @@ function adjective() {
 	    "pragmatic",
 	    "hedonistic",
 	    "lean",
-	    "dinamically generated",
+	    "dynamically generated",
 	    "static-positioned",
 	    "situational aware",
 	    "self-descriptive",
