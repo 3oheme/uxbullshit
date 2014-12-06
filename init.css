@@ -24,14 +24,14 @@ footer {
 }
 
 a {
-	text-decoration: none;
+  text-decoration: none;
+  border-bottom: 1px solid #949494;
 	color: #949494;
 }
 
 a:hover {
-	text-decoration: underline;
+	color: #B4B4B4;
 }
-
 
 section {
 	margin: 8em 0;
@@ -43,3 +43,18 @@ section {
 	font-weight: 900;
 	line-height: 1em;
 }
+
+#more-info {
+
+}
+
+@media screen and (max-width: 500px) {
+  section {
+    margin: 4em 0;
+  }
+  #technique {
+    font-size: 30px;
+  }
+}
+
+
