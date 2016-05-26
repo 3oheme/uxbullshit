@@ -16,6 +16,7 @@ function adjective() {
 	    "pragmatic",
 	    "hedonistic",
 	    "lean",
+        "ninja",
 	    "dynamically generated",
 	    "static-positioned",
 	    "situational aware",
@@ -23,6 +24,22 @@ function adjective() {
 	    "tangential",
 	    "greenfield",
 	    "passive",
-	    "active"
+	    "active",
+        "artisanal",
+        "bleeding edge",
+        "consumer-facing",
+        "data-driven",
+        "freemium",
+        "game-changer",
+        "impactful",
+        "mission critical",
+        "non-trivial",
+        "no-brainer",
+        "orthogonal",
+        "push-pull",
+        "quick and dirty",
+        "t-shaped",
+        "vanilla",
+        "viral"
 	]);
 }

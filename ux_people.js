@@ -6,7 +6,7 @@ function ux_people() {
 		"Alan Cooper",
 		"David Carson",
 		"Bill Buxton",
-		"John Ive",
+		"Jony Ive",
 		"Douglas Adams",
 		"Albert Einstein",
 		"Paul Graham",

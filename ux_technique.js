@@ -35,6 +35,10 @@ function ux_technique() {
     "evangelicalism session",
     "healthcheck",
     "product in a box",
-    "process mapping"
+    "process mapping",
+    "aha moment",
+    "blue-sky thinking",
+    "webinar",
+    "whitepaper"
 	]);
 }
