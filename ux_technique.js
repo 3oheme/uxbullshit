@@ -2,6 +2,7 @@ function ux_technique() {
 	return random([
 		"competitor analysis",
 		"user survey",
+		"Atomic Design",
 		"interview",
 		"contextual enquiry",
 		"focus group",
