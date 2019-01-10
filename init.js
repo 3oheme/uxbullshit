@@ -11,5 +11,5 @@
 	var url_encoded = encodeURIComponent('http://uxbullshit.com')
 	var tweet_link = 'https://twitter.com/intent/tweet?text=' + technique_encoded + "&url=" + url_encoded;
 	tweet.href = tweet_link
-}, 2000);
+}, 1000);
 
