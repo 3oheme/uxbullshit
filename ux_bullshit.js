@@ -1,7 +1,7 @@
 function ux_bullshit() {
 	var result = [
 		"You should try a " + adjective() +" " + technique() + " with a " + role() + " to " + outcome(),
-		"Go and fire a " + role(),
+		"Fire a " + role(),
 		"Think in " + technique() + " as the new " + technique(),
 		company() + " is killing " + technique(),
 		"You should use " + adjective() +" " + technique() + " to " + outcome(),
