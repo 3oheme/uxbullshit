@@ -12,6 +12,7 @@ function ux_people() {
 		"Paul Graham",
 		"Jef Raskin",
 		"Tim Berners-Lee",
-		"Brad Frost"
+		"Brad Frost",
+		"Jared Spool"
 	]);
 }
