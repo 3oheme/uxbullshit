@@ -1,4 +1,4 @@
-function ux_technique() {
+function technique() {
 	return random([
 		"competitor analysis",
 		"user survey",

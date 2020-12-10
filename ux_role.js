@@ -7,6 +7,7 @@ function role() {
 		"stakeholder",
 		"business analyst",
 		"project manager",
-		"copywriter"
+		"copywriter",
+		"frontend"
 	]);
 }
