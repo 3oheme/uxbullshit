@@ -23,6 +23,10 @@ function adjective() {
 	    "tangential",
 	    "greenfield",
 	    "passive",
-	    "active"
+		"active",
+		"environmentally-friendly",
+		"destructive",
+		"AI generated",
+		"innovative"
 	]);
 }

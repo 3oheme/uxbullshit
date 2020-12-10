@@ -41,6 +41,10 @@ function technique() {
 		"diary study",
 		"Figma prototype",
 		"Airtable document",
-		"roadmap"
+		"roadmap",
+		"storytelling",
+		"information architecture workshop",
+		"object-oriented UX",
+		"improv"
 	]);
 }

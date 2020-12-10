@@ -11,7 +11,11 @@ function ux_bullshit() {
 	    "A wise man would use a " + adjective() + " " + adjective() + " " + technique() + " to " + outcome(),
 	    "Think outside the box to " + outcome() + " and " + outcome(),
 	    "You can simply " + outcome() + " applying a " + adjective() +" " + technique(),
-	    "Stop using a " + adjective() +' '+ adjective() +" " + technique() + " if you need to " + outcome(),
+		"Stop using a " + adjective() +' '+ adjective() +" " + technique() + " if you need to " + outcome(),
+		"Hire a " + adjective() +' '+ role() + " right now",
+		"Good design is " + adjective(),
+		"Be " + adjective(),
+		company() + " for " + industry()
  	];
 	return result[Math.floor(Math.random()*result.length)];
 }
